@@ -1,5 +1,10 @@
-export default function CopyMe(){
+import {Icon} from '../components';
+
+export default function UsingIconWithCSSClass(){
     return (
-        <div>CopyMe</div>
+        <>
+            <h3>Using Icons with CSS Class</h3>
+            <Icon name='home' className='text-blue'></Icon>
+        </>
     );
 }
